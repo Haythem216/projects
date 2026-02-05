@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Conferences - Medical Knowledge Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="ticker-container">
+            <div class="ticker-header">MEDICAL NEWS</div>
+            <div class="ticker-content">
+                <div id="ticker">
+                    <span class="loading">Loading latest medical news...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Medical Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html" class="active">Conferences</a></li>
+                <li><a href="latest_disc.html">Latest Discoveries</a></li>
+                <li><a href="links.html">Important Links</a></li>
+                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="research.html">Research Papers</a></li>
+                <!-- <li><a href="about.html">About Us</a></li> no need for this page now-->
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+    
+    <main>
+        <section class="content-section">
+            <h2>Upcoming Medical Conferences</h2>
+            <p>Stay informed about the most important medical conferences and events happening worldwide. Network with peers, learn from industry experts, and discover the latest advancements in medical science.</p>
+        </section>
+        
+        
+        
+        <section class="content-section">
+            <h2>Featured Conferences</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=200&fit=crop" alt="Global Health Summit" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Global Health Summit 2025</h3>
+                        <p class="card-date">May 15-18, 2025 | Geneva, Switzerland</p>
+                        <p>The premier international conference on global health challenges, featuring over 200 speakers from 50 countries discussing pandemic preparedness, health equity, and sustainable healthcare systems.</p>
+                        <a href="https://www.aafp.org/events/global-health.html" class="button">Visit Website</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=200&fit=crop" alt="Neuroscience Conference" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">International Neuroscience Conference</h3>
+                        <p class="card-date">June 7-10, 2025 | Boston, USA</p>
+                        <p>A comprehensive gathering of neuroscientists, neurologists, and psychiatrists sharing groundbreaking research on brain function, neurological disorders, and novel therapeutic approaches.</p>
+                        <a href="https://fensforum.org/" class="button">Visit Website</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=200&fit=crop" alt="Digital Health Conference" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Digital Health Innovation Forum</h3>
+                        <p class="card-date">July 3-5, 2025 | Singapore</p>
+                        <p>Exploring the intersection of technology and healthcare with sessions on AI in medicine, telemedicine advancements, wearable health technologies, and digital health startups.</p>
+                        <a href="https://hpi.de/en/hpi-digital-health-innovation-forum/" class="button">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="content-section">
+            <h2>Conference Calendar 2025</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Conference Name</th>
+                        <th>Dates</th>
+                        <th>Location</th>
+                        <th>Focus Areas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Global Health Summit 2025</td>
+                        <td>May 15-18, 2025</td>
+                        <td>Geneva, Switzerland</td>
+                        <td>Public Health, Global Health Policy</td>
+                    </tr>
+                    <tr>
+                        <td>International Neuroscience Conference</td>
+                        <td>June 7-10, 2025</td>
+                        <td>Boston, USA</td>
+                        <td>Neurology, Neuroscience, Brain Research</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Health Innovation Forum</td>
+                        <td>July 3-5, 2025</td>
+                        <td>Singapore</td>
+                        <td>Health Tech, AI, Telemedicine</td>
+                    </tr>
+                    <tr>
+                        <td>European Cardiology Congress</td>
+                        <td>August 28-31, 2025</td>
+                        <td>Barcelona, Spain</td>
+                        <td>Cardiovascular Medicine, Cardiac Surgery</td>
+                    </tr>
+                    <tr>
+                        <td>International Cancer Research Symposium</td>
+                        <td>September 10-13, 2025</td>
+                        <td>Toronto, Canada</td>
+                        <td>Oncology, Cancer Treatments</td>
+                    </tr>
+                    <tr>
+                        <td>World Pediatrics Conference</td>
+                        <td>October 5-8, 2025</td>
+                        <td>Melbourne, Australia</td>
+                        <td>Child Health, Pediatric Medicine</td>
+                    </tr>
+                    <tr>
+                        <td>Future of Surgery Summit</td>
+                        <td>November 14-16, 2025</td>
+                        <td>Tokyo, Japan</td>
+                        <td>Surgical Innovation, Robotic Surgery</td>
+                    </tr>
+                    <tr>
+                        <td>Global Mental Health Conference</td>
+                        <td>December 3-6, 2025</td>
+                        <td>Cape Town, South Africa</td>
+                        <td>Psychiatry, Mental Health Access</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Made by Haythem Baccar Copyright &copy; 2025</p>
+        <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+    

@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+*.o
+*.out
+lurk_ok
+*.exe
+
+# Large media (optional: remove if you want to push)
+# *.mp4
+# *.mov
+# *.ogv
+
+# PDFs (personal)
+*.pdf

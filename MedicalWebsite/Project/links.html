@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Medical Links - Medical Knowledge Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="ticker-container">
+            <div class="ticker-header">MEDICAL NEWS</div>
+            <div class="ticker-content">
+                <div id="ticker">
+                    <span class="loading">Loading latest medical news...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Medical Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Conferences</a></li>
+                <li><a href="latest_disc.html">Latest Discoveries</a></li>
+                <li><a href="links.html" class="active">Important Links</a></li>
+                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="research.html">Research Papers</a></li>
+                <!-- <li><a href="about.html">About Us</a></li>no need for this page now -->
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+
+    <main>
+    
+
+        <section class="links-category">
+            <h3>Medical Journals & Publications</h3>
+            <ul class="links-list">
+                <li><a href="https://www.nejm.org" target="_blank">New England Journal of Medicine</a> - Leading medical research journal</li>
+                <li><a href="https://jamanetwork.com" target="_blank">JAMA Network</a> - Journal of the American Medical Association</li>
+                <li><a href="https://www.thelancet.com" target="_blank">The Lancet</a> - International medical journal</li>
+                <li><a href="https://www.bmj.com" target="_blank">BMJ</a> - British Medical Journal</li>
+            </ul>
+        </section>
+
+        <section class="links-category">
+            <h3>Medical Databases & Research</h3>
+            <ul class="links-list">
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">PubMed</a> - Free search engine for biomedical literature</li>
+                <li><a href="https://clinicaltrials.gov" target="_blank">ClinicalTrials.gov</a> - Database of clinical studies</li>
+                <li><a href="https://www.who.int" target="_blank">World Health Organization</a> - Global health information</li>
+                <li><a href="https://www.cdc.gov" target="_blank">CDC</a> - Centers for Disease Control and Prevention</li>
+            </ul>
+        </section>
+
+        <section class="links-category">
+            <h3>Medical Education Resources</h3>
+            <ul class="links-list">
+                <li><a href="https://www.medscape.com" target="_blank">Medscape</a> - Medical news and education</li>
+                <li><a href="https://www.uptodate.com" target="_blank">UpToDate</a> - Evidence-based clinical decision support</li>
+                <li><a href="https://www.medlineplus.gov" target="_blank">MedlinePlus</a> - Health information for patients</li>
+                <li><a href="https://www.merckmanuals.com" target="_blank">Merck Manuals</a> - Medical reference guides</li>
+            </ul>
+        </section>
+
+        <section class="links-category">
+            <h3>Professional Organizations</h3>
+            <ul class="links-list">
+                <li><a href="https://www.ama-assn.org" target="_blank">American Medical Association</a></li>
+                <li><a href="https://www.wma.net" target="_blank">World Medical Association</a></li>
+                <li><a href="https://www.rcplondon.ac.uk" target="_blank">Royal College of Physicians</a></li>
+                <li><a href="https://www.acponline.org" target="_blank">American College of Physicians</a></li>
+            </ul>
+        </section>
+
+        <div class="comment-section">
+            <h4>Suggest Links</h4>
+            <div class="comment-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" class="email" placeholder="Your Email" required>
+                <textarea id="comment" placeholder="Your suggested source" required></textarea>
+                <button class="commentbtn">Post Comment</button>
+            </div>
+            <div id="comments-discovery">
+                <!-- Comments will appear here -->
+            </div>
+    </main>
+
+    <footer>
+        <p>Made by Haythem Baccar Copyright &copy; 2025</p>
+        <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+    </footer>
+</body>
+</html> 

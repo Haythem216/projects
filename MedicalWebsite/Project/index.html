@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Knowledge Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="ticker-container">
+            <div class="ticker-header">MEDICAL NEWS</div>
+            <div class="ticker-content">
+                <div id="ticker">
+                    <span class="loading">Loading latest medical news...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Medical Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="events.html">Conferences</a></li>
+                <li><a href="latest_disc.html">Latest Discoveries</a></li>
+                <li><a href="links.html">Important Links</a></li>
+                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="research.html">Research Papers</a></li>
+                <!-- <li><a href="about.html">About Us</a></li> no need for this page now-->
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+    
+    <main>
+        <section class="content-section welcome-section">
+            <h2>Your Gateway to Medical Insight</h2>
+            <p class="welcome-text">
+                Welcome to the <strong>Medical Knowledge Hub</strong> — your trusted source for the latest in medical science, research breakthroughs, and global health trends. Whether you're a medical student, healthcare professional, or just passionate about medicine, we've got you covered.
+            </p>
+        </section>
+
+        <section class="content-section features-section">
+            <h2>What You'll Find Here:</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="https://tinyurl.com/2vz9d8pj" alt="Latest Discoveries" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Latest Discoveries</h3>
+                        <p>Stay updated with cutting-edge medical advancements and innovations in the field of medicine.</p>
+                        <a href="latest_disc.html" class="button">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://tinyurl.com/mtzusyvx" alt="Conferences" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Conferences</h3>
+                        <p>Find out about upcoming medical events, workshops, and international symposiums.</p>
+                        <a href="events.html" class="button">View Events</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://tinyurl.com/mth797wx" alt="Research Papers" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">Research Papers</h3>
+                        <p>Dive into peer-reviewed research and student contributions in the medical field.</p>
+                        <a href="research.html" class="button">Browse Papers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="content-section get-started-section">
+            <h2>Get Started</h2>
+            <p class="get-started-text">
+                Use the menu to explore different sections. Be sure to check out the live medical news ticker above for real-time updates.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Made by Haythem Baccar Copyright &copy; 2025</p>
+        <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

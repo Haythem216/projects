@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Gallery - Medical Knowledge Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="ticker-container">
+            <div class="ticker-header">MEDICAL NEWS</div>
+            <div class="ticker-content">
+                <div id="ticker">
+                    <span class="loading">Loading latest medical news...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Medical Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Conferences</a></li>
+                <li><a href="latest_disc.html">Latest Discoveries</a></li>
+                <li><a href="links.html">Important Links</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="research.html">Research Papers</a></li>
+                <!-- <li><a href="about.html">About Us</a></li> no need for this page now-->
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Medical Gallery</h2>
+            <p>Explore our collection of medical images, illustrations, and educational materials.</p>
+        </section>
+
+        
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://tinyurl.com/4v3c38ut" alt="Medical Research Lab">
+                <div class="gallery-caption">
+                    <h3>Advanced Research Laboratory</h3>
+                    <p>State-of-the-art medical research facility equipped with cutting-edge technology for groundbreaking discoveries.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://tinyurl.com/53n84r6a" alt="Surgical Procedure">
+                <div class="gallery-caption">
+                    <h3>Minimally Invasive Surgery</h3>
+                    <p>Demonstration of advanced laparoscopic surgical techniques in modern operating rooms.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://tinyurl.com/5n84xxze" alt="Medical Imaging">
+                <div class="gallery-caption">
+                    <h3>Advanced Medical Imaging</h3>
+                    <p>High-resolution MRI and CT scan images showing detailed anatomical structures.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://tinyurl.com/ykkzupju" alt="Medical Education">
+                <div class="gallery-caption">
+                    <h3>Medical Education</h3>
+                    <p>Interactive learning sessions in modern medical education facilities.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://tinyurl.com/2f6k3cw9" alt="Medical Technology">
+                <div class="gallery-caption">
+                    <h3>Medical Technology</h3>
+                    <p>Latest medical devices and equipment used in patient care and treatment.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://tinyurl.com/5n7n7f6h" alt="Healthcare Team">
+                <div class="gallery-caption">
+                    <h3>Healthcare Team</h3>
+                    <p>Multidisciplinary healthcare professionals working together for patient care.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="upload-section">
+            <h3>Upload Your Medical Image</h3>
+            <form id="uploadForm" class="upload-form">
+                <div class="form-group">
+                    <label for="imageFile">Select Image</label>
+                    <input type="file" id="imageFile" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <label for="imageTitle">Image Title</label>
+                    <input type="text" id="imageTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="imageDescription">Description</label>
+                    <textarea id="imageDescription" required></textarea>
+                </div>
+                <button type="submit">Upload Image</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by Haythem Baccar Copyright &copy; 2025</p>
+        <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest Medical Discoveries - Medical Knowledge Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="ticker-container">
+            <div class="ticker-header">MEDICAL NEWS</div>
+            <div class="ticker-content">
+                <div id="ticker">
+                    <span class="loading">Loading latest medical news...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Medical Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Conferences</a></li>
+                <li><a href="latest_disc.html" class="active">Latest Discoveries</a></li>
+                <li><a href="links.html">Important Links</a></li>
+                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="research.html">Research Papers</a></li>
+                <!-- <li><a href="about.html">About Us</a></li>no need for this page now-->
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+
+    <main>
+        
+
+        <article class="discovery-card" id="discovery1">
+            <h3>Revolutionary Cancer Treatment Breakthrough</h3>
+            <p class="date">March 15, 2025</p>
+            <div class="discovery-content">
+                <p>Researchers at the National Cancer Institute have developed a novel immunotherapy approach that shows unprecedented success in treating previously untreatable forms of cancer. The new treatment, which combines CAR-T cell therapy with a novel immune checkpoint inhibitor, has shown a 75% response rate in phase III clinical trials.</p>
+                <p>Key findings:</p>
+                <ul>
+                    <li>Significant reduction in tumor size in 75% of patients</li>
+                    <li>Minimal side effects compared to traditional treatments</li>
+                    <li>Potential application across multiple cancer types</li>
+                </ul>
+            </div>
+            <div class="comment-section">
+                <h4>Comments</h4>
+                <div class="comment-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" class="email" placeholder="Your Email" required>
+                    <textarea id="comment" placeholder="Your Comment" required></textarea>
+                    <button class="commentbtn">Post Comment</button>
+                </div>
+                <div id="comments-discovery">
+                    <!-- Comments will appear here -->
+                </div>
+            </div>
+        </article>
+
+        <article class="discovery-card" id="discovery2">
+            <h3>Breakthrough in Alzheimer's Disease Research</h3>
+            <p class="date">March 10, 2025</p>
+            <div class="discovery-content">
+                <p>Scientists have identified a new biomarker that can predict Alzheimer's disease up to 15 years before symptoms appear. This discovery, published in the Journal of Neurology, could revolutionize early detection and treatment of the disease.</p>
+                <p>Key findings:</p>
+                <ul>
+                    <li>New blood test with 95% accuracy in predicting Alzheimer's</li>
+                    <li>Potential for early intervention and treatment</li>
+                    <li>Cost-effective screening method</li>
+                </ul>
+            </div>
+            <div class="comment-section">
+                <h4>Comments</h4>
+                <div class="comment-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" class="email" placeholder="Your Email" required>
+                    <textarea id="comment" placeholder="Your Comment" required></textarea>
+                    <button class="commentbtn">Post Comment</button>
+                </div>
+                <div id="comments-discovery">
+                    <!-- Comments will appear here -->
+                </div>
+            </div>
+        </article>
+
+        <article class="discovery-card" id="discovery3">
+            <h3>New Gene Therapy for Rare Genetic Disorders</h3>
+            <p class="date">March 5, 2025</p>
+            <div class="discovery-content">
+                <p>A team of researchers has developed a groundbreaking gene therapy that successfully treats multiple rare genetic disorders. The therapy uses a novel delivery system that targets specific cells with unprecedented precision.</p>
+                <p>Key findings:</p>
+                <ul>
+                    <li>Successful treatment of 5 different genetic disorders</li>
+                    <li>Minimal side effects and long-lasting results</li>
+                    <li>Potential for treating other genetic conditions</li>
+                </ul>
+            </div>
+            <div class="comment-section">
+                <h4>Comments</h4>
+                <div class="comment-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" class="email" placeholder="Your Email" required>
+                    <textarea id="comment" placeholder="Your Comment" required></textarea>
+                    <button class="commentbtn">Post Comment</button>
+                </div>
+                <div id="comments-discovery">
+                    <!-- Comments will appear here -->
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Made by Haythem Baccar Copyright &copy; 2025</p>
+        <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+    </footer>
+</body>
+</html> 

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Papers - Medical Knowledge Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="ticker-container">
+            <div class="ticker-header">MEDICAL NEWS</div>
+            <div class="ticker-content">
+                <div id="ticker">
+                    <span class="loading">Loading latest medical news...</span>
+                </div>
+            </div>
+        </div>
+        <h1>Medical Knowledge Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Conferences</a></li>
+                <li><a href="latest_disc.html">Latest Discoveries</a></li>
+                <li><a href="links.html">Important Links</a></li>
+                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="research.html" class="active">Research Papers</a></li>
+                <!-- <li><a href="about.html">About Us</a></li>  no need for this page now-->
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="content-section">
+            <h2>Research Papers</h2>
+            <p>Access and contribute to our collection of medical research papers and studies.</p>
+        </section>
+
+        
+
+        <section class="papers-section">
+            <h3>Recent Research Papers</h3>
+            <div class="papers-grid">
+                <div class="paper-card">
+                    <h4>Advances in Cancer Immunotherapy</h4>
+                    <p class="author">Dr. Sarah Johnson et al.</p>
+                    <p class="abstract">A comprehensive review of recent developments in cancer immunotherapy and their clinical applications.</p>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7407443/" class="button" target="_blank">Read More</a>
+                </div>
+
+                <div class="paper-card">
+                    <h4>Neural Network Applications in Medical Imaging</h4>
+                    <p class="author">Dr. Michael Chen et al.</p>
+                    <p class="abstract">Exploring the use of artificial intelligence in improving medical image analysis and diagnosis.</p>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6268174/" class="button" target="_blank">Read More</a>
+                </div>
+
+                <div class="paper-card">
+                    <h4>Novel Approaches to Alzheimer's Treatment</h4>
+                    <p class="author">Dr. Emily Rodriguez et al.</p>
+                    <p class="abstract">Investigating new therapeutic strategies for Alzheimer's disease management and prevention.</p>
+                    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7407443/" class="button" target="_blank">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="comment-section">
+            <h3>Discuss Research Papers</h3>
+            <div class="comment-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" class="email" placeholder="Your Email" required>
+                <textarea id="comment" placeholder="Your Comment" required></textarea>
+                <button class="commentbtn">Post Comment</button>
+            </div>
+            <div id="comments-research">
+                <!-- Comments will appear here -->
+            </div>
+        </div>
+
+        <section class="upload-section">
+            <h3>Upload Research Paper</h3>
+            <div id="upload-confirmation" style="display: none;">
+                <p class="confirmation-message">Thank you for your submission! Your paper will be reviewed by our team. We will contact you at the provided email address once the review is complete.</p>
+            </div>
+            <form id="uploadForm" class="upload-form">
+                <div class="form-group">
+                    <label for="paperTitle">Paper Title</label>
+                    <input type="text" id="paperTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="authorName">Author Name</label>
+                    <input type="text" id="authorName" required>
+                </div>
+                <div class="form-group">
+                    <label for="authorEmail">Author Email</label>
+                    <input type="email" id="authorEmail" class="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="paperAbstract">Description</label>
+                    <textarea id="paperAbstract" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="paperFile">Upload PDF</label>
+                    <input type="file" id="paperFile" accept=".pdf" required>
+                </div>
+                <button type="submit">Upload Paper</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made by Haythem Baccar Copyright &copy; 2025</p>
+        <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+    </footer>
+</body>
+</html> 

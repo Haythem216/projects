@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Average Cost</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+    </head>
+    <body id="Cost">
+        <header >
+            <h2>Average cost of a vacation in Tunisia</h2>
+        </header>
+        <main >
+            <!-- Navbar begin code -->
+            <span id="nav" onclick="openNav()">&#9776; Menu</span>
+              <nav>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="index.html">Home</a>
+                    <a href="hammamet.html">Hammamet</a>
+                    <a href="mahdia.html">Mahdia</a>
+                    <a href="tozeur.html">Tozeur</a>
+                    <a href="cost.html">Average Cost</a>
+                  </div>
+            </nav>
+            <!--end Nav code-->
+            <p>Now that you have an idea about what a vacation in Tunisia can look like, here is an estimation of how much it can cost you depending on the quality of services you choose:</p>
+            <div id="selectionBars">
+                <form id="myForm">
+                    <div>
+                        <label for="username" > Username :</label>
+                        <input type="text" id="username" name="username" required>
+                    </div>
+                    <div>
+                        <label for="city">City:</label>
+                        <select name="city" id="city">
+                            <option value="Hammamet"> Hammamet</option>
+                            <option value="Mahdia">Mahdia</option>
+                            <option value="Tozeur">Tozeur</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="HotelQuality">Hotel Quality:</label>
+                        <select name="HotelQuality" id="HotelQuality">
+                            <option value="3-star">3-star⭐⭐⭐</option>
+                            <option value="4-star">4-star⭐⭐⭐⭐</option>
+                            <option value="5-star">5-star⭐⭐⭐⭐⭐</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="transportation">Transportation:</label>
+                        <select name="transportation" id="transportation">
+                            <option value="PublicTransportation">Public transportation</option>
+                            <option value="CarRental">Car rental</option>
+                            <option value="PrivateVehicle">Private vehicle</option>
+                        </select>
+                    </div>
+        
+                    <div><label for="Nights"> Nights :</label>
+                        <input type="number" id="Nights" min="1" max="14" required>
+                    </div>
+                    <div>
+                        <label for="NbPeople" > No.People :</label>
+                        <input type="number" id="NbPeople" min="1" max="14" required>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        
+            <!-- Modal -->
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p id="modalContent"></p>
+                </div>
+            </div>
+            <script src="javaScript/popup&nav.js"></script>
+            
+            
+        </main>
+        <footer>
+            <p>Made by Haythem Baccar Copyright &copy; 2024</p>
+            <p><a href="mailto:haythembaccar97@gmail.com">haythembaccar97@gmail.com</a></p>
+        </footer>
+    </body>
+</html>
