@@ -19,7 +19,6 @@ print("Saved audiobook.mp3")
 
 
 
-
 """from pyttsx3 import*
 from PyPDF2 import*
 
@@ -50,19 +49,3 @@ for i in range(len(reader.pages)):
     text = reader.pages[i].extract_text()
     if text:
         speak_text(engine,text)"""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

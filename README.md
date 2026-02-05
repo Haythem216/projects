@@ -16,7 +16,7 @@ I'm a CS student with hands-on experience in **C/C++**, **Python**, **Linux**, a
 |--------|-------------|------|
 | **[LurkServer](LurkServer/)** | Multi-threaded game server with custom binary protocol over TCP; strict validation to reject malformed/unauthorized traffic. Bash script for process management. | C++, POSIX sockets, pthreads, Linux, Bash |
 | **[LurkClient](LurkClient/)** | Graphical client for the above game; parses binary protocol and talks to the C++ server. | Python, PyQt5, sockets |
-| **[PDF → Audiobook](ToAudioBookConverter.py)** | Converts PDF text to MP3 using gTTS and PyPDF2. | Python, scripting |
+| **[Audiobook converter](AudiobookConverter/)** | Converts PDF text to MP3 using gTTS and PyPDF2. *(In progress)* | Python, scripting |
 | **[Medical website](MedicalWebsite/)** | Multi-page responsive site (medical/research theme). | HTML, CSS, JavaScript |
 | **[Tourism website](tourismWebsite/)** | Multi-page responsive site with media and navigation. | HTML, CSS, JavaScript |
 | **[Blender scene](Blender_Final_Proj/)** | 3D scene with Python scripting in Blender. | Python, Blender |
