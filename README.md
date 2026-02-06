@@ -1,14 +1,12 @@
 # Haythem Baccar — Portfolio
 
-**Lewis-Clark State College** · BS Computer Science, Math Minor · Graduating Dec 2026 · GPA 3.98  
-
-Lewiston, ID · [haythembaccar97@gmail.com](mailto:haythembaccar97@gmail.com)
+**Lewis-Clark State College** · BS Computer Science, Math Minor · Graduating Dec 2026 [haythembaccar97@gmail.com](mailto:haythembaccar97@gmail.com)
 
 ---
 
 ## About
 
-I'm a CS student with hands-on experience in **C/C++**, **Python**, **Linux**, and **web development**. I enjoy systems and networking: from kernel-level and embedded Linux to user-facing interfaces. This repo holds coursework and personal projects that reflect that range.
+I'm a CS student with hands-on experience in **C/C++**, **Python**, **Linux**, and **web development**.This repo holds coursework and personal projects showcase my technical skills and growth as a developer.
 
 ## Projects
 
@@ -32,7 +30,7 @@ I'm a CS student with hands-on experience in **C/C++**, **Python**, **Linux**, a
 
 - **Tutor** (LCSC Student Success Center): C++, Python, web development, math.  
 - **IT Assistant** (LCSC): System upgrades, troubleshooting, technical protocols.  
-- **Coursework**: Kernel programming (Linux), embedded Linux security project (medical device assessment).  
+- **Coursework this semester**: Kernel programming (Linux), embedded Linux security project (medical device security testing), C#, Databases and knowledge management, Capstone Design(Graduation project).  
 
 ---
 
