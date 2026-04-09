@@ -1,6 +1,6 @@
 # Haythem Baccar — Portfolio
 
-**Lewis-Clark State College** · BS Computer Science, Math Minor · Graduating Dec 2026 [haythembaccar97@gmail.com](mailto:haythembaccar97@gmail.com)
+**Lewis-Clark State College** · BS Computer Science, Math Minor · Graduating May 2027 [hbaccar5208@students.lcstate.edu](mailto:hbaccar5208@students.lcstate.edu)
 
 ---
 
